@@ -1,0 +1,457 @@
+
+1.
+(单选题)在常见的Linux日志文件中，以下哪个文件（ C ）的作用是记录与系统启动
+相关的消息
+
+    A./var/log/dmesg
+    B./var/log/messages
+    C./var/log/secure
+    D./var/log/maillog
+
+2.
+(单选题)关于Bash Shell的环境变量，以下描述不正确的是（ d ）？
+
+    A.脚本文件里定义的临时变量，只在脚本执行过程中有效
+    B.使用export可设置全局变量
+    C.变量名区分字母大小写
+    D.变量名不区分字母大小写
+
+3.
+(单选题)Shell脚本中，使用什么语句可以直接退出脚本（d	）？
+
+    A.kill
+    B.q
+    C.quit
+    D.exit
+
+4.
+(单选题)使用test进行条件判断，测试两个数字的关系时，大于或等于用（ C ）表示。
+
+    A.-le
+    B.-gt
+    C.-ge
+    D.-eq
+
+5.
+(单选题)在Shell脚本中，若要屏蔽终端的输出默认显示功能，可以执行（ D ）命令？
+
+    A.set  tty   -echo
+    B.-echo
+    C.stty echo
+    D.stty -echo
+
+6.
+(单选题)使用bind配置域名系统时，主配置文件位于（ D ）
+
+    A./var/named/named.local
+    B./var/named/named.root
+    C./etc/named.conf
+    D./etc/named/name.conf
+
+7.
+(单选题)使用命令（ A ）可以查看后台所有的进程，并且输出进程的PID
+
+    A.jobs -l
+    B.jobs
+    C.fg
+    D.bg
+
+8.
+(单选题)安装DNS服务的软件包名是( D  )
+
+    A.DNS
+    B.name
+    C.named
+    D.bind bind-chroot
+
+9.
+(单选题)在Linux系统中，执行（C  ）命令可以设置DHCP服务下次开机自启动
+
+    A.systemctl restart dhcpd
+    B.systemctl stop dhcpd
+    C.systemctl enable dhcpd
+    D.systemctl status dhcpd
+
+10.
+(单选题)Shell脚本中可以进行小数运算的命令工具是（  A ）？
+
+    A.bc
+    B.gc
+    C.tc
+    D.tc
+
+11.
+(单选题)在安装并配置了DHCP服务之后，以下（  A）操作可以使配置生效
+
+    A.systemctl restart dhcpd
+    B.systemctl stop dhcpd
+    C.systemctl enable dhcpd
+    D.systemctl status dhcpd
+
+12.
+(单选题)当需要安装Linux系统的服务器数量比较多时，选择（ C ）安装方式最好
+
+    A.光盘安装
+    B.硬盘安装
+    C.PXE + Kickstart无人值守安装
+    D.U盘安装
+
+13.
+(单选题)自定义yum源时可以利用（ c ）命令生成仓库数据文件
+
+    A.yumrepo
+    B.addrepo
+    C.createrepo
+    D.yum-repo
+
+14.
+(单选题)Linux命令行中，对多个命令进行逻辑分隔时，仅前一个命令不成功才
+执行下一个命令，应该使用什么分隔符（ D  ）？
+
+    A.&
+    B.%%
+    C.&&
+    D.||
+
+15.
+(单选题)使用vim编辑文件时，若要将第7到10行的内容一次性删除，可以在
+命令模式下先将光标移动到第7行，再使用（ B ）按键命令
+
+    A.dd
+    B.4dd
+    C.de
+    D.4de
+
+16.
+(单选题)配置bind域名服务时，管理员执行了cp -p /var/named/named.localhost  /var/named/tedu.cn.zone操作，
+其中选项-p的作用是（B  ）
+
+    A.拷贝连接
+    B.保持原文件属性不变
+    C.拷贝目录
+    D.递归拷贝
+
+17.
+(单选题)在Linux系统中，以下（ D ）不属于YUM软件仓库提供的方式
+
+    A.file://
+    B.ftp://
+    C.http://
+    D.mail://
+
+18.
+(单选题)使用命令unzip解压缩文档时，选项（B  ）可以指定解压缩的位置
+
+    A.-r
+    B.-d
+    C.-f
+    D.-C
+
+19.
+(单选题)kickarstart 应答文件的包名是（ A ）
+
+    A.system-config-kickstart
+    B.kickstart
+    C.system-config
+    D.system-kickstart
+
+20.
+(单选题)DHCP服务可以为客户机分配多种网络参数，其中不包括（ D  ）
+
+    A.默认网关地址
+    B.动态IP地址
+    C.DNS服务器地址
+    D.防火墙策略
+
+21.
+(单选题)以下哪种RAID级别必须使用四块及以上磁盘才能实现（ D ）
+
+    A.RAID 0
+    B.RAID 1
+    C.RAID 5
+    D.RAID 10
+
+22.
+(单选题)在Linux系统中，使用（ A）命令可以查询最近登录失败的用户访问信息
+
+    A.lastb
+    B.last
+    C.w
+    D.who
+
+23.
+(单选题)在Linux系统中从源代码安装软件时，编译成功后执行安装的命令通常是
+（ D ）
+
+    A../configure
+    B.make
+    C.make all
+    D.make install
+
+24.
+(单选题)在Linux系统中，管理员发现PID为2048的进程没有响应，可以执行（ C ）
+命令强行中止该进程
+
+    A.pkill  -9 2048
+    B.killall +9 2048
+    C.kill -9 2048
+    D.kill +9 2048
+
+25.
+(单选题)使用rsync同步操作时，执行（ B）可以将/boot下的内容同步复制到
+/todir目录下。
+
+    A.rsync –a /boot  /todir
+    B.rsync –a /boot/ /todir/
+    C.rsync –a  /todir /boot
+    D.rsync –a  /todir/ /boot/
+
+26.
+(单选题)在Linux系统中从源代码安装软件时，编译的过程由（ B ）操作完成
+
+    A../configure
+    B.make
+    C.make all
+    D.make install
+
+27.
+(单选题)在Linux系统中，要查看系统默认运行模式，可以使用（ A ）命令
+
+    A.systemctl get-default
+    B.systemctl status
+    C.systemctl set-default
+    D.systemctl isolate
+
+28.
+(单选题)在Linux上使用kickarstart生成ks文件yum仓库源ID应设置为（ b ）
+
+    A.rhel7
+    B.development
+    C.默认名称
+    D.ksckarstart
+
+29.
+(单选题)使用test命令进行判断测试时，如下哪个选项可以判断一个文件或目录
+是否存在( D  )？
+
+    A.-f
+    B.-d
+    C.-r
+    D.-e
+
+30.
+(单选题)在搭建PXE服务器时，用来提供给客户机的网卡引导文件是（ A ）
+
+    A.pxelinux.0
+    B.ifcfg-eth0
+    C.vesamenu.c32
+    D.vmlinuz
+
+31.
+(单选题)在常见的RAID级别中，（ B ）的设备冗余度最好，也称为镜像模式
+
+    A.RAID0
+    B.RAID1
+    C.RAID5
+    D.RAID6
+
+32.
+(单选题)关于命令 hostname=www.tarena.com; echo ${hostname%%.*} 的执行结果，以下描述正确的是（B  ）。
+
+    A.tarena.com
+    B.www
+    C.com
+    D.www.tarena
+
+33.
+(单选题)在vim编辑器的（ B ）模式中可以实现录入、退格等编辑操作
+
+    A.退出模式
+    B.输入模式
+    C.命令模式
+    D.末行模式
+
+34.
+(单选题)在Linux系统中，执行命令 ls  -l  test.sh 后，返回结果如下：  
+-rw-rw-r-- 1 zhang root 55 2014-02-21 test.sh，若希望
+文件所有者能够运行此脚本程序，可执行（ D ）命令
+
+    A.chown root test.sh
+    B.chmod g+x test.sh
+    C.chmod ug+w test.sh
+    D.chmod u+x test.sh
+
+35.
+(单选题)在互联网应用中，当客户机浏览器解析一个网站域名的IP地址时，DNS
+服务器响应此查询请求的端口应该是（  B）
+
+    A.TCP  53
+    B.UDP  53
+    C.TCP  67
+    D.UDP  67
+
+36.
+(单选题)在Linux系统中，dhcpd服务的主配置文件中有一行内容为option routers 192.168.10.254，其作用是用于指定客户端的（ d ）
+
+    A.DNS地址
+    B.IP地址
+    C.DHCP服务器地址
+    D.默认网关地址
+
+37.
+(单选题)Shell中如果需要查看student数组的元素的所有内容，可以执行如下哪条命令（ c ）？
+
+    A.echo ${#student[@]}
+    B.${#student[@]}
+    C.echo ${student[*]}
+    D.echo ${student[0]}
+
+38.
+(单选题)若要输出student数组中第3个元素的值，可以执行（ B）操作。
+
+    A.${student[2]:0:3
+    B.echo ${student[2]}
+    C.echo ${student[2]:0}
+    D.echo ${student[3]:3}
+
+39.
+(单选题)Linux命令行中，对多个命令进行逻辑分隔时，仅前一个命令成功才执行
+下一个命令，应该使用什么分隔符（ C ）？
+
+    A.&
+    B.%
+    C.&&
+    D.|
+
+40.
+(单选题)在Linux系统中，若执行 scp dumb bilbo@www.foobar.com: 命令，
+可以实现（  D）功能
+
+    A.将本地计算机“dumb”目录下所有的文件拷贝到远程服务器 www.fobar.com的根目录下，并且登录远程服务器上的密码为“bilbo”
+    B.将本地计算机当前目录下的一个名为“dumb”的文件发送到邮件 bilbo@www.foobar.com
+    C.将远程服务器www.foobar.com 上用户“bilbo”主目录下的一个名为 “dumb”的文件拷贝到本地计算机当前目录下，并且登录远程服务器上的账号名为 “bilbo”
+    D.将本地计算机当前目录下的一个名为“dumb”的文档拷贝到远程主机www.fobar.com中用户 “bilbo”的主目录下
+
+41.
+(单选题)通过执行tail -n 5 /var/log/messages后，得到的其中一行信息如下：  
+Oct 29 13:19:48 web5 dhclient: DHCPACK from 192.168.8.254 (xid=0x7c.. ..)，其中web5表示的是（  C）
+
+    A.消息内容
+    B.程序名
+    C.主机名
+    D.时间标签
+
+42.
+(单选题)在配置DNS服务的时候，正向解析记录的资源类型是（B    ）
+
+    A.PTR
+    B.A
+    C.CNAME
+    D.SOA
+
+43.
+(单选题)关于硬RAID实现的方式，以下说法正确的是（  A）
+
+    A.主板—>阵列卡—>磁盘—>操作系统—>数据
+    B.主板—>磁盘—>阵列卡—>操作系统—>数据
+    C.主板—>磁盘—>操作系统—>阵列卡—>数据
+    D.主板—>操作系统—>磁盘—>阵列卡—>数据
+
+44.
+(单选题)光盘的系统类型为( B )
+
+    A.xfs
+    B.iso9660
+    C.iso9600
+    D.defaults
+
+45.
+(单选题)在Linux系统中，若要查询文件/etc/dovecot.conf 是由哪个RPM软件包
+安装的，可以使用（ A ）命令
+
+    A.yum provide /etc/dovecot.conf
+    B.rpm –q /etc/dovecot.conf
+    C.yum list /etc/dovecot.conf
+    D.rpm –ql /etc/dovecot.conf
+
+46.
+(多选题)Shell脚本中使用如下哪些语句可以实现循环功能（ BC ）？
+
+    A.if
+    B.while
+    C.for
+    D.case
+
+47.
+(多选题)vim编辑器中调到首行的快捷键是(  B )
+
+    A.GG
+    B.gg
+    C.1G
+    D.1gvmlinuz
+
+  31.
+  (单选题)在常见的RAID级别中，（ B ）的设备冗余度最好，也称为镜像模式
+  A.
+RAID0
+
+B.
+RAID1
+
+C.
+RAID5
+
+D.
+RAID6
+
+  32.
+  (单选题)关于命令 hostname=www.tarena.com; echo ${hostname%%.*} 的执行结果，以下描述正确的是（  B）。
+  A.
+tarena.com
+
+B.
+www
+
+C.
+com
+
+D.
+www.tarena
+
+  33.
+  (单选题)在vim编辑器的（ B ）模式中可以实现录入、退格等编辑操作
+  A.
+退出模式
+
+B.
+输入模式
+
+C.命令  D末行
+
+
+48.
+(多选题)如下哪条命令（ AB ），可以对变量i进行自加2的操作。
+
+    A.let i+=2
+    B.let i=i+2
+    C.let i++
+    D.let ++i
+
+49.
+(多选题)安装源码包时需要安装编译工具有（ CD ）
+
+    A.C++
+    B.g++
+    C.gcc
+    D.make
+
+50.
+(多选题)Bash具有记录命令历史的功能，哪些方式可以定义最大历史记录的
+数量(A  C )?
+
+    A.命令行直接执行：HISTSIZE=500
+    B.命令行直接执行：history=500
+    C.修改/etc/profile文件，设置HISTSIZE=500
+    D.修改/etc/profile文件，设置history=500
+
+
